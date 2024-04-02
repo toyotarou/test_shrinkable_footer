@@ -20,10 +20,10 @@ class BottomNavigationBarParts extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            IconTextItem(width: context.screenSize.width, icon: Icons.home, title: 'Home'),
-            IconTextItem(width: context.screenSize.width, icon: Icons.star, title: 'Favorite'),
-            IconTextItem(width: context.screenSize.width, icon: Icons.favorite, title: 'Like'),
-            IconTextItem(width: context.screenSize.width, icon: Icons.settings, title: 'Menu'),
+            IconTextItem(width: context.screenSize.width, isHiding: isHiding, icon: Icons.home, title: 'Home'),
+            IconTextItem(width: context.screenSize.width, isHiding: isHiding, icon: Icons.star, title: 'Favorite'),
+            IconTextItem(width: context.screenSize.width, isHiding: isHiding, icon: Icons.favorite, title: 'Like'),
+            IconTextItem(width: context.screenSize.width, isHiding: isHiding, icon: Icons.settings, title: 'Menu'),
           ],
         ),
       ),
